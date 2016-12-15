@@ -1,29 +1,88 @@
 body {
-  background-color: ivory;
+  background-image: url("https://68.media.tumblr.com/3a27408a1bc005eb7788680d6162d4b7/tumblr_ohvuwq8mHc1t26xrro1_1280.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 h1 {
-  color: papayawhip;
+  color: white;
   margin-left: 60px;
   font-family: 'Walter Turncoat', cursive;
   letter-spacing: 3px;
+  font-size: 60px;
 }
 h2 {
   margin-left: 40px;
+  margin-right: 40px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
+  font-size: 36px;
 }
 p{
-  margin-left: 40px;
-  font-size: 20px;
-}
-span{
-  font-family: 'Walter Turncoat', cursive;
   font-size: 28px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 ul{
   margin: 40px;
-  font-size: 18px;
+  font-size: 28px;
 }
-div{
-  background-color: sienna;
+hr{
+  width: 90%;
+}
+#container{
+  position:relative;
+  width: 80%;
+  max-width: 1200px;
+  min-height: 85vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 150px;
+  background-image: url("https://subtlepatterns.com/patterns/tree_bark.png");
+
+}
+#header{
+  background-color: gray;
+}
+#table{
+  position: relative;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:100px;
+}
+#footer{
+  position:absolute;
+  width: 100%;
+  bottom: 0;
+}
+.content{
+}
+img[src="http://casanovainfo.com/wp-content/uploads/2016/07/hardware.jpg"]{
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin: 0 auto;
+}
+img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"]{
+  width: 10%;
+  height: 10%;
+}
+img[src="https://cdn.worldvectorlogo.com/logos/c.svg"]{
+  width: 10%;
+  height: 10%;;
+}
+img[src="https://www.seeklogo.net/wp-content/uploads/2011/06/java-logo-vector.png"]{
+  width: 10%;
+  height: 10%;;
+}
+img[src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"]{
+  width: 10%;
+  height: 10%;
+}
+img[src="http://www.bobbyblackdesign.com/parallax/images/css-bg-01.png"]{
+  width: 8%;
+  height: 8%;
 }
